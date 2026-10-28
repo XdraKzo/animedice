@@ -18,7 +18,7 @@ local Config = {
     ReplaceWorst = false,      -- (off: the game cannot sell a unit that is on the plot)
     -- SAFE MODE: true = main account (the strict rules below), false = alt account
     -- (only the RAW value decides; locked and NeverSell units are still kept)
-    SafeMode = false,
+    SafeMode = true,
     SellEvery = 3,             -- seconds between sell checks
     StorageFree = 25,          -- keep at least this many free backpack slots (sells the weakest sellable units)
     -- SAFETY (SafeMode = true): a unit is only sold when ALL of these allow it
